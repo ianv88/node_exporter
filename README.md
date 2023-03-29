@@ -12,4 +12,9 @@ I need to install node_exporter latest version with automatically. I decided to 
 
 ## Usage
 Run the command with under `sudo` privilege in your linux server directly via SSH. \
-`sh <(curl https://raw.githubusercontent.com/flightlesstux/node_exporter/master/installer.sh)`
+
+```bash
+sh <(curl https://raw.githubusercontent.com/ianv88/node_exporter/master/installer.sh)
+```
+
+original: `sh <(curl https://raw.githubusercontent.com/flightlesstux/node_exporter/master/installer.sh)
