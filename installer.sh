@@ -28,7 +28,6 @@ mv /tmp/$NAME-*/node_exporter /opt/$NAME/bin
 cat << EOF > /etc/systemd/system/node_exporter.service
 [Unit]
 Description=Prometheus exporter for machine metrics
-Documentation=https://github.com/flightlesstux/node_exporter
 
 [Service]
 Restart=always
@@ -182,4 +181,4 @@ systemctl enable $NAME
 systemctl start $NAME
 systemctl status $NAME
 rm -rf /tmp/$NAME-*
-
+curl http://localhost:9100/metrics
