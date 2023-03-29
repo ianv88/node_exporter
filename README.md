@@ -4,7 +4,7 @@ I need to install node_exporter latest version with automatically. I decided to 
 # Information
 - arm64 based support
 - x86_64 based support
-- Tested on Amazon Linux 2, ubuntu, Debian, CentOS7, CentOS8
+- Tested on Amazon Linux 2, ubuntu, Debian, CentOS7, CentOS8, Oracle Linux, RHEL 8.x
 
 # Requirements
 - Freshly installed server or doesn't contains a user with name "node-exporter"
